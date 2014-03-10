@@ -31,8 +31,8 @@
         [v initAntWithDirections:a];
         [self.view addSubview:v];
         [v setTag:i];
-        [v release];
         [places addObject:v];
+        [v release];
         
         gap += 10;
     }
